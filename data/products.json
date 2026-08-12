@@ -1,0 +1,849 @@
+[
+  {
+    "id": "bp-001",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Submersible Pumps",
+    "title": "Rule Standard Bilge Pumps",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Compact, long-life submersible bilge pumps built to clear nuisance bilge water. Standalone pumps requiring a separate float or panel switch to operate, with easy-clean snap-lock strainer bases and a non-return valve to keep discharge from running back into the bilge.",
+    "specifications": [
+      "Flow rates from 360-4000 GPH (1363-15140 LPH)",
+      "12, 24 and 32 volt DC versions available",
+      "Back Flow Prevention on 360-1100 GPH models",
+      "Stainless steel shafts, completely submersible",
+      "Marine-grade blocked wiring, rust and corrosion protection",
+      "Built-in Thermal Cut-Off (TCO) for pump and vessel protection",
+      "Silent operation with minimal vibration",
+      "Ignition protected; CE and ISO 8849 certified",
+      "Meets RoHS, IMCI, CE and ISO standards; NMMA listed",
+      "Limited 3-year warranty (5-year on Gold Series)"
+    ],
+    "models": [
+      { "model": "24DA", "note": "360 GPH (1363 LPH), 12V" },
+      { "model": "25DA / 25DA-24", "note": "500 GPH (1893 LPH), 12V/24V" },
+      { "model": "20DA / 20DA-24", "note": "800 GPH (3028 LPH), 12V/24V" },
+      { "model": "27DA / 27DA-24", "note": "1100 GPH (4164 LPH), 12V/24V" },
+      { "model": "04 / 03 / 02-6 / 02", "note": "1500 GPH (5678 LPH)" },
+      { "model": "12 / 11 / 10-6UL / 10 / 09", "note": "2000 GPH (7571 LPH)" },
+      { "model": "15A / 16A / 14A-6UL / 14A / 13A", "note": "3700 GPH (14,010 LPH)" },
+      { "model": "56D-32 / 56D-24 / 56D", "note": "4000 GPH (15,140 LPH)" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/standard-bilge-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-002",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Submersible Pumps",
+    "title": "Rule Automatic Bilge Pumps",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Automatic water-sensing bilge pumps with no separate float switch required. The pump periodically checks for water and runs continuously once water is detected, reverting to standby once the bilge is clear. Previously marketed as the Electronic Sensing series.",
+    "specifications": [
+      "Automatic water sensing; no external float switch required",
+      "Flow rates from 360-4000 GPH (1363-15140 LPH)",
+      "12 and 24 volt DC versions available",
+      "Compact, long-life motors, can run dry for short periods",
+      "Completely submersible",
+      "Built-in thermal cut-off (TCO) for added protection",
+      "Silent operation with minimal vibration"
+    ],
+    "models": [
+      { "model": "25S-6 / 25S / 25S-24", "note": "500 GPH (1893 LPH)" },
+      { "model": "20RS", "note": "800 GPH (3028 LPH)" },
+      { "model": "27S", "note": "1100 GPH (4164 LPH)" },
+      { "model": "51S", "note": "1500 GPH (5678 LPH)" },
+      { "model": "53S", "note": "2000 GPH (7571 LPH)" },
+      { "model": "55S", "note": "3700 GPH (14,010 LPH)" },
+      { "model": "56S", "note": "4000 GPH (15,140 LPH)" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/automatic-bilge-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-003",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Submersible Pumps",
+    "title": "Rule-Mate Automatic Bilge Pump",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "All-in-one pump and switch with solid-state water sensing technology, activating once water reaches roughly 70mm and shutting off once it's cleared. Field-effect sensor is designed not to trigger on oil spills.",
+    "specifications": [
+      "Flow rates from 500-2000 GPH (1893-7571 LPH)",
+      "Optimized impeller for up to 10% more flow at the same amperage",
+      "Water level sensor controls the pump automatically",
+      "Back-up feature prevents continuous running",
+      "Built-in thermal cut-off (TCO) for added protection",
+      "Threaded discharge for easier installation"
+    ],
+    "models": [
+      { "model": "RM500A / RM500A-24", "note": "500 GPH (1893 LPH)" },
+      { "model": "RM750A / RM750A-24", "note": "750 GPH (2839 LPH)" },
+      { "model": "RM1100A / RM1100A-24", "note": "1100 GPH (4164 LPH)" },
+      { "model": "RM1500A", "note": "1500 GPH (5678 LPH)" },
+      { "model": "RM2000A / RM2000A-24", "note": "2000 GPH (7571 LPH)" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/bilge-pump-rulemate-automatic/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-004",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Submersible Pumps",
+    "title": "Rule LoPro Bilge Pumps",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Low-profile pump for tight spaces, offering a choice of operating mode to suit the installation: high/low water sensing mode or automatic timed mode. Fully rotating discharge body allows horizontal or vertical mounting.",
+    "specifications": [
+      "Max flow rate of 900 GPH (3407 LPH)",
+      "Compact, long-life motors, can run dry for short periods",
+      "Fail-safe back-up feature and built-in thermal cut-off",
+      "Fully rotating discharge body",
+      "Silent operation with minimal vibration",
+      "12V DC, fuse size 4 amp"
+    ],
+    "models": [
+      { "model": "LP900S", "note": "Automatic — high/low water sensing mode" },
+      { "model": "LP900D", "note": "Standard — float/panel switch operated" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/lopro-bilge-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-046",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Submersible Pumps",
+    "title": "Rule Dry Bilge Pump",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Drains the bilge almost dry, leaving 1/8\" (3mm) or less of standing water. Filter-free, compact design with a rotating pump head and ports for flexible installation, and can run dry without pump damage.",
+    "specifications": [
+      "Drains bilge to 1/8\" (3mm) or less",
+      "Filter-free, compact, simple design",
+      "Self-priming to 9.5 ft. (3m)",
+      "Can run dry without damaging the pump",
+      "Up to 4.0 GPM (15 LPM) flow",
+      "Rotating pump head and ports"
+    ],
+    "models": [
+      { "model": "DB412", "note": "Rule Dry Bilge Pump" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/db412/",
+    "xylemStatus": "current",
+    "isNewProduct": true
+  },
+  {
+    "id": "bp-047",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Submersible Pumps",
+    "title": "Rule Submersible Utility Pump",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Permanently lubricated, double-insulated utility pump with a snap-off strainer for easy cleaning. Heavy-duty thermoplastic housing is designed to protect the pump in adverse conditions, and it is totally submersible in fresh or salt water.",
+    "specifications": [
+      "Permanently lubricated, double insulated pump motor",
+      "Snap-off strainer for easy cleaning",
+      "Heavy-duty thermoplastic housing",
+      "Totally submersible in fresh or salt water"
+    ],
+    "models": [
+      { "model": "Submersible Utility Pump", "note": "See Xylem product page for current model numbers" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/110-volt-pumps-1d144088/",
+    "xylemStatus": "current",
+    "isNewProduct": true
+  },
+  {
+    "id": "bp-005",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Bilge Pump Float Switches & Panel Switches",
+    "title": "Rule Super Switch Float Switch",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Non-mercury float switch designed for the toughest applications, with marine-grade 14-gauge blocked wire, a larger float for increased buoyancy, and a removable base for easy servicing. Snap switch handles pumps drawing up to 20 amps.",
+    "specifications": [
+      "Designed for pumps drawing up to 20 amps",
+      "Marine-grade, 14-gauge blocked wire",
+      "Larger float for increased buoyancy",
+      "Removable base for easy cleaning and servicing",
+      "5-year warranty"
+    ],
+    "models": [
+      { "model": "37A", "note": "Super Switch" },
+      { "model": "37FA", "note": "Super Switch with in-line fuse holder" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-006",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Bilge Pump Float Switches & Panel Switches",
+    "title": "Rule-A-Matic Float Switch",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "A long-standing favorite bilge pump switch, featuring a removable base for easy cleaning and servicing, a mercury-free snap switch tested to over one million cycles, and marine-grade blocked wire.",
+    "specifications": [
+      "Designed for pumps drawing up to 14 amps",
+      "Mercury-free snap switch, tested to over 1 million cycles",
+      "Removable base for easy cleaning and servicing",
+      "Marine-grade blocked wire",
+      "2-year warranty"
+    ],
+    "models": [
+      { "model": "35A", "note": "Rule-A-Matic" },
+      { "model": "35FA", "note": "Rule-A-Matic with in-line fuse holder" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-007",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Bilge Pump Float Switches & Panel Switches",
+    "title": "Rule-A-Matic Plus Float Switch",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Sleek and rugged design with a fully integrated, impact-resistant cover that protects against debris and jamming. Includes a built-in test feature and abrasion-resistant marine-grade wire.",
+    "specifications": [
+      "Designed for pumps drawing up to 20 amps",
+      "14-gauge, abrasion-resistant marine-grade wire",
+      "Built-in test feature",
+      "Impact-resistant integrated cover",
+      "2-year warranty"
+    ],
+    "models": [
+      { "model": "40A", "note": "Rule-A-Matic Plus" },
+      { "model": "40FA", "note": "Rule-A-Matic Plus with in-line fuse holder" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-008",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Bilge Pump Float Switches & Panel Switches",
+    "title": "Rule ECO-Switch",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "An ecologically sound, non-mercury automatic bilge pump control switch operated by simple air pressure. As water rises in the bilge, rising air pressure in the attached tube activates the switch, with no submerged electrical connections.",
+    "specifications": [
+      "Non-mercury design; operates on air pressure",
+      "No moving internal parts, no submerged electrical connections",
+      "Suitable for 12V and 24V systems"
+    ],
+    "models": [
+      { "model": "39", "note": "ECO-Switch, 12 volt" },
+      { "model": "39-24", "note": "ECO-Switch, 24 volt" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-012",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Bilge Pump Float Switches & Panel Switches",
+    "title": "Rule High-Water Bilge Alarm",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Consists of a non-mercury float switch and an in-dash gauge with both a visual and an audible 85dB alarm, allowing an unmanned compartment to be constantly monitored. Complies with CFR 182.530 for larger vessels.",
+    "specifications": [
+      "Non-mercury float switch with in-dash gauge",
+      "Visual and audible 85dB alarm",
+      "Complies with CFR 182.530 for vessels over 26' (7.9m)",
+      "Available in 12V, 24V and 32V versions"
+    ],
+    "models": [
+      { "model": "33ALA", "note": "12V DC" },
+      { "model": "32ALA", "note": "24V DC" },
+      { "model": "31ALA", "note": "32V DC" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-009",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Bilge Pump Float Switches & Panel Switches",
+    "title": "Rule Panel Switches",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Range of control panels for automatically controlled pumps, available in 2-way or 3-way configurations. Controls any pump equipped with an automatic float switch, allowing remote manual override from a dash-mounted location.",
+    "specifications": [
+      "Available in 2-way or 3-way switch configurations",
+      "Controls any pump equipped with an automatic float switch",
+      "12V/24V/32V versions available"
+    ],
+    "models": [
+      { "model": "41 / 42", "note": "3-Way Panel Switch — Lighted" },
+      { "model": "43 / 44", "note": "3-Way Rocker Panel Switch — Lighted" },
+      { "model": "45", "note": "3-Way Panel Switch (no light)" },
+      { "model": "49", "note": "2-Way Panel Switch" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/switches/panel-switches/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-010",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "General Purpose Pumps",
+    "title": "Rule Shower Drain Pump System",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "A compact, full-capacity shower drain system with a sealed, impact-resistant polycarbonate lid and gasket. Lid, pump, filter and float switch can all be removed and serviced without tools. Back-flow prevention reduces water siphoning back into the shower box.",
+    "specifications": [
+      "Accommodates flows up to 1100 GPH (3028 LPH)",
+      "Sealed, impact-resistant polycarbonate lid with gasket",
+      "Lid, pump, filter and float switch removable without tools",
+      "Back-flow prevention reduces siphon-back to shower box"
+    ],
+    "models": [
+      { "model": "98B / 98B-24", "note": "Shower Drain Box, 12V/24V" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/98b-98b-24-shower-drain-box/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-011",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "General Purpose Pumps",
+    "title": "Rule General Purpose Centrifugal Pump",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Designed for use as a washdown pump and/or to circulate water to livewell tanks. Heavy-duty construction for commercial or pleasure boat use. Must be mounted below the waterline — not self-priming, but delivers high volumes of water at low pressure.",
+    "specifications": [
+      "Compact, efficient long-life motors",
+      "Totally submersible; rust and corrosion proof",
+      "Silent and vibration-free operation",
+      "1-1/2\" (38mm) inlet and 1-1/2\" (38mm) discharge outlet",
+      "Flow: 3700-3800 GPH (14,010-14,380 LPH)"
+    ],
+    "models": [
+      { "model": "17A", "note": "12V DC" },
+      { "model": "18A", "note": "24V DC" },
+      { "model": "19A", "note": "32V DC" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/end-suction-pumps/general-purpose-centrifugal-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-013",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "General Purpose Pumps",
+    "title": "Rule Portable Hand Pump",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Ideal for bilge pumping, oil draining, diesel fuel transfer, and many other liquid transfer applications. Constructed of sturdy ABS plastic with a comfort-grip handle for smooth, firm strokes.",
+    "specifications": [
+      "Available in 24 in. (61cm) or 36 in. (91cm) lengths",
+      "ABS plastic construction with comfort-grip handle",
+      "Suitable for bilge, oil and diesel transfer duties"
+    ],
+    "models": [
+      { "model": "165", "note": "24\" (61cm) length" },
+      { "model": "168", "note": "36\" (91cm) length" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/portable-hand-pump/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-015",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco & Rule Accessories",
+    "title": "Rule Thru Hull Fittings",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "High-impact plastic through-hull fittings designed for Rule pumps. Will not rust, corrode or discolor, and are available in straight or angled configurations.",
+    "specifications": [
+      "Designed for Rule pumps",
+      "High-impact plastic construction",
+      "Will not rust, corrode or discolor",
+      "Straight or angled configurations available"
+    ],
+    "models": [
+      { "model": "Thru Hull Fittings", "note": "See Xylem product page for full size range" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/thru-hull-fittings/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-017a",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco & Rule Accessories",
+    "title": "Rule Vented Loops",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "For use in bilge pump installations to prevent siphoning of water back into the boat via the through-hull, using a duckbill one-way valve system.",
+    "specifications": [
+      "Prevents siphoning of water back into the boat",
+      "For use with bilge pump through-hull installations"
+    ],
+    "models": [
+      { "model": "260", "note": "3/4\" (19mm) hose size" },
+      { "model": "261", "note": "1-1/8\" (29mm) hose size" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/vented-loops/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-017b",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco & Rule Accessories",
+    "title": "Rule 3-Way Bilge Hose Fittings",
+    "brand": "Rule",
+    "image": "assets/images/placeholder.svg",
+    "description": "Durable plastic Y and T fitting configurations for combining or splitting bilge hose runs from multiple pickup points to a single pump or discharge line.",
+    "specifications": [
+      "Durable plastic construction",
+      "Y and T configurations available"
+    ],
+    "models": [
+      { "model": "212 / 213", "note": "Y Fittings, 3/4\" and 1-1/8\"" },
+      { "model": "215 / 216", "note": "T Fittings, 3/4\" and 1-1/8\"" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/3-way-bilge-hose-fittings/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-018",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Manual Bilge Pumps",
+    "title": "Jabsco Amazon Bulkhead Manual Pump",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "For mounting on bulkhead or deck. Repositionable ports and body offer 96 assembly variations. Corrosion-resistant materials throughout with a stainless steel handle.",
+    "specifications": [
+      "Accommodates sustainable output up to 10 GPM (38 LPM)",
+      "For surface mounting on bulkhead or deck",
+      "96 assembly variations via repositionable ports and body",
+      "Stainless steel handle with mounting clips and safety lanyard provision"
+    ],
+    "models": [
+      { "model": "29240-0000", "note": "Amazon Bulkhead Manual Bilge Pump" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/manual-bilge-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-020",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Manual Bilge Pumps",
+    "title": "Jabsco Amazon Universal Manual Pump",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "For mounting on bulkhead, through bulkhead, on deck or through deck (with optional through deck kit). Flow direction can be changed 180° by interchanging inlet and outlet ports, with excellent solids-handling for holding tanks.",
+    "specifications": [
+      "Accommodates flow rates up to 22 GPM (83 LPM)",
+      "Mountable on bulkhead, through bulkhead, deck or through deck",
+      "Flow direction reversible 180° via port interchange",
+      "Optional push-fit inlet/outlet elbows swivel 360°",
+      "Quick release clamp ring for clearing blockages"
+    ],
+    "models": [
+      { "model": "29270-0000", "note": "Amazon Universal Manual Bilge Pump" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/manual-bilge-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-021",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Manual Bilge Pumps",
+    "title": "Jabsco Amazon Thrudeck Manual Pump",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Compact through-deck pump offering 16 port variations relative to the body. Loosening a single screw lets you clear blockages or reposition the body through 360° relative to the handle.",
+    "specifications": [
+      "Accommodates readily achievable outputs up to 11 GPM (42 LPM)",
+      "Mounts through deck or bulkhead",
+      "16 port variations relative to the body",
+      "Body rotates 360° relative to handle by loosening one screw",
+      "Includes through-deck kit and cover"
+    ],
+    "models": [
+      { "model": "29250-0000", "note": "Amazon Thrudeck Manual Bilge Pump" },
+      { "model": "29250-0010", "note": "Amazon Thrudeck Manual Bilge Pump, alternate port size" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/manual-bilge-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-022",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Manual Bilge Pumps",
+    "title": "Jabsco Amazon Warrior Manual Pump",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Robust design suited to workboats and larger leisure craft, or heavy-duty installations. Can be mounted on deck or through the deck with an optional kit and bracket.",
+    "specifications": [
+      "Heavy-duty design for workboats and larger craft",
+      "Mountable on deck or through deck (optional kit/bracket)",
+      "Double diaphragm design for maximum efficiency and safety",
+      "Can function on one diaphragm in an emergency"
+    ],
+    "models": [
+      { "model": "Amazon Warrior", "note": "See Xylem product page for current model numbers" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/manual-bilge-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-023",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Manual Bilge Pumps",
+    "title": "Jabsco In-Line Non-Return Valve",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Fits in a pump's suction hose to aid priming and prevent backflow of water into the bilges. Simply fits into the suction hose and is available for multiple hose sizes.",
+    "specifications": [
+      "Fits into suction hose to aid priming",
+      "Prevents backflow of water into the bilge",
+      "Available for 3/4\", 1\" and 1-1/2\" (19, 25, 38mm) ID hose",
+      "Corrosion-resistant materials throughout"
+    ],
+    "models": [
+      { "model": "29295-1011", "note": "3/4\" (19mm) ID hose" },
+      { "model": "29295-1000", "note": "1\" (25mm) ID hose" },
+      { "model": "29295-1010", "note": "1-1/2\" (38mm) ID hose" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/bilge-accessories/in-line-non-return-valves/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-019",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Manual Bilge Pumps",
+    "title": "Jabsco Strainers",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Prevents unnecessary pump breakdowns caused by particles in the water. Operates in any position with corrosion-resistant materials throughout and a screw-off, transparent housing for easy inspection and quick, in-place cleaning.",
+    "specifications": [
+      "Prevents pump breakdowns from waterborne debris",
+      "Operates in any position",
+      "Corrosion-resistant materials throughout",
+      "Screw-off, transparent housing for easy inspection and cleaning"
+    ],
+    "models": [
+      { "model": "Jabsco Strainers", "note": "Multiple hose sizes available — see Xylem product page" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/strainers-and-filters/strainers/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-024",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Diaphragm Pumps",
+    "title": "Jabsco Shower Drain & Bilge Marine Pump",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Robust diaphragm pump suitable for shower drain and bilge applications. Runs dry without damage, with a powerful heavy-duty motor featuring thermal overload protection and snap-in ports for quick servicing.",
+    "specifications": [
+      "Accommodates flow rates up to 4.3 GPM (16.3 LPM)",
+      "Runs dry without damage",
+      "Powerful heavy-duty motor with thermal overload protection",
+      "Snap-in ports; waterproof coating"
+    ],
+    "models": [
+      { "model": "Shower Drain & Bilge Marine Pump", "note": "See Xylem product page for current model numbers" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/shower-drain-bilge-marine-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-025",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Diaphragm Pumps",
+    "title": "Jabsco PAR 36680 Bilge & Deck Wash Pump",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Fully serviceable bilge and deck wash pump that allows mounting above wet bilges. Diaphragm design allows extended dry running and comes complete with a Pumpgard strainer.",
+    "specifications": [
+      "Flow: 5.5 GPM (21 LPM)",
+      "Self-priming up to 7' (2m) vertical lift",
+      "Fitting: connections for 3/4\" (19mm) ID hose",
+      "Complies with USCG 183.410, ISO 8846 and ISO 8849"
+    ],
+    "models": [
+      { "model": "36680-2000", "note": "12V DC model" },
+      { "model": "36680-2010", "note": "24V DC model" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/shower-drain-bilge-marine-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-026",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Diaphragm Pumps",
+    "title": "Jabsco 36600 Diaphragm Bilge Pump",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Fully serviceable bilge pump allowing mounting above wet bilges. Diaphragm design allows extended dry running, complete with a Pumpgard strainer.",
+    "specifications": [
+      "Flow: 7.9 GPM (30 LPM)",
+      "Self-priming up to 10' (3m) vertical lift",
+      "Fitting: connections for 3/4\" (19mm) ID hose",
+      "Complies with USCG 183.410, ISO 8846 and ISO 8849"
+    ],
+    "models": [
+      { "model": "36600-0000", "note": "12V DC model" },
+      { "model": "36600-0010", "note": "24V DC model" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/36600-diaphragm-bilge-pump/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-028",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Electric Diaphragm Pumps",
+    "title": "Jabsco Bilge Pumpgard Strainer",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Protects electric diaphragm bilge pumps, preventing breakdowns caused by particles in the water. Transparent housing allows instant inspection with quick, in-place cleaning of the mesh stainless steel screen.",
+    "specifications": [
+      "Protects diaphragm bilge pumps from debris",
+      "Transparent housing for instant inspection",
+      "In-place cleaning of stainless steel mesh screen"
+    ],
+    "models": [
+      { "model": "Pumpgard Strainer", "note": "See Xylem Strainers product page for current part numbers" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/strainers-and-filters/strainers/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-029",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Puppy Series",
+    "title": "Jabsco Water Puppy Commercial Duty",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Continuously rated duty bilge/sump pump with a simple design meaning fewer wearing parts, all user serviceable. Part of Jabsco's current Puppy Series flexible impeller pump range.",
+    "specifications": [
+      "Flow: 6.33 GPM (23.83 LPM) at 10' (3m) total head",
+      "Self-priming up to 4' (1.2m) vertical lift",
+      "Fitting: 1/2\" (13mm) NPT and 1\" (25mm) ID hose",
+      "Complies with USCG 183.410, ISO 8846 and ISO 8849"
+    ],
+    "models": [
+      { "model": "18660-0121", "note": "12V DC model" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-030",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Puppy Series",
+    "title": "Jabsco Water Puppy",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "High-flow, continuously rated bilge pump offering good discharge head. Bilge debris presents no problem to this bronze-bodied, flexible impeller design. Part of Jabsco's current Puppy Series range.",
+    "specifications": [
+      "Flow: 7.83 GPM (29.5 LPM) at 10' (3m) total head",
+      "Self-priming up to 8' (2.4m) vertical lift",
+      "Fitting: 1/2\" (13mm) NPT and 1\" (25mm) ID hose"
+    ],
+    "models": [
+      { "model": "18670-0123", "note": "12V DC (Non CE)" },
+      { "model": "23680-4003", "note": "12V DC" },
+      { "model": "23680-4103", "note": "24V DC" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-031",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Puppy Series",
+    "title": "Jabsco Maxi Puppy 3000",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "High-flow, continuously rated bilge pump offering good discharge head. Bronze-bodied flexible impeller design handles bilge debris with ease. Part of Jabsco's current Puppy Series range.",
+    "specifications": [
+      "Flow: 11 GPM (44 LPM) at 10' (3m) total head",
+      "Self-priming up to 8' (2.4m) vertical lift",
+      "Fitting: 1/2\" (13mm) BSP and 1\" (25mm) ID hose"
+    ],
+    "models": [
+      { "model": "23610-3003", "note": "12V DC" },
+      { "model": "23610-3103", "note": "24V DC" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-032",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Puppy Series",
+    "title": "Jabsco Junior Puppy",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "High discharge head, continuously rated bilge pump with a bronze-bodied flexible impeller design that handles debris without issue. Part of Jabsco's current Puppy Series range.",
+    "specifications": [
+      "Flow: 3.75 GPM (15 LPM) at 10' (3m) total head",
+      "Self-priming up to 5' (1.5m) vertical lift",
+      "Fitting: 3/8\" (10mm) BSP and 3/4\" (19mm) ID hose"
+    ],
+    "models": [
+      { "model": "23670-4003", "note": "12V DC" },
+      { "model": "23670-4103", "note": "24V DC" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-033",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Puppy Series",
+    "title": "Jabsco Utility Puppy 2000",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Continuous rated pump offering high flow for bilge, deck wash and general purpose use, with up to twenty minutes of dry running after initial use. Part of Jabsco's current Puppy Series range.",
+    "specifications": [
+      "Flow: 8.33 GPM (32 LPM) at 10' (3m) total head",
+      "Self-priming up to 4' (1.2m) vertical lift",
+      "Fitting: connections for 3/4\" (19mm) male threads",
+      "Complies with USCG 183.410, ISO 8846 and ISO 8849"
+    ],
+    "models": [
+      { "model": "23920-2403", "note": "12V DC BSP model" },
+      { "model": "23290-2503", "note": "24V DC BSP model" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-034",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Puppy Series",
+    "title": "Jabsco Utility Puppy 3000",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Continuous rated heavy-duty pump offering very high flow for bilge, deck wash and general purpose use, with a mechanical seal for extra long life and ten minutes dry running. Part of Jabsco's current Puppy Series range.",
+    "specifications": [
+      "Flow: 11.33 GPM (43 LPM) at 10' (3m) total head",
+      "Self-priming up to 8' (2.4m) vertical lift",
+      "Fitting: connections for 3/4\" (19mm) male threads"
+    ],
+    "models": [
+      { "model": "23920-2213", "note": "12V DC BSP model" },
+      { "model": "23920-2313", "note": "24V DC BSP model" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-035",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Puppy Series",
+    "title": "Jabsco Mini Puppy",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Compact, continuously rated low-flow pump. Small bilge debris presents no problem to this brass-bodied pump, with a simple design meaning fewer wearing parts, all user serviceable. Part of Jabsco's current Puppy Series range.",
+    "specifications": [
+      "Flow: 1.38 GPM (5.5 LPM) at 10' (3m) total head",
+      "Self-priming up to 5' (1.5m) vertical lift",
+      "Fitting: 3/8\" (10mm) BSP and 3/4\" (19mm) ID hose"
+    ],
+    "models": [
+      { "model": "23620-4003", "note": "12V DC" },
+      { "model": "23620-4103", "note": "24V DC" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-036",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Clutch Pumps",
+    "title": "Jabsco Electro-Magnetic Clutch Pumps",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Engine-driven, electrically activated clutch pumps offering the benefits of flexible impeller pumps at high flow rates. Constructed from marine-quality bronze and stainless steel, will not airlock, and can pump in either direction.",
+    "specifications": [
+      "Accommodates flow rates up to 62 GPM (234 LPM)",
+      "Self-priming from dry up to 7.8 ft. (2.4m)",
+      "Bronze and stainless steel construction",
+      "Will not airlock; can pump in either direction",
+      "12V, 24V or 32V electro-magnetic clutch activation"
+    ],
+    "models": [
+      { "model": "11860 series", "note": "Electro-magnetic clutch pump" },
+      { "model": "11870 series", "note": "Electro-magnetic clutch pump, 1-1/4\" NPT" },
+      { "model": "18330 series", "note": "Electro-magnetic clutch pump, 2\" NPT" },
+      { "model": "50080 series", "note": "Electro-magnetic clutch pump" },
+      { "model": "50200 series", "note": "Electro-magnetic clutch pump" },
+      { "model": "50220 series", "note": "Electro-magnetic clutch pump" },
+      { "model": "50270 series", "note": "Electro-magnetic clutch pump" },
+      { "model": "50580 series", "note": "Electro-magnetic clutch pump" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/manual-and-electro-magnetic-clutch-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-041",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Clutch Pumps",
+    "title": "Jabsco Manual Clutch Pumps",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Engine-driven, manually activated clutch pumps for bilge, deck wash and firefighting duties. Dependable manual control operates even under the toughest conditions and is easily serviced and maintained.",
+    "specifications": [
+      "Accommodates flow rates up to 68 GPM (272.5 LPM)",
+      "Self-priming from dry up to 15' (4.5m)",
+      "Bronze and stainless steel construction",
+      "Manually engaged clutch pulley"
+    ],
+    "models": [
+      { "model": "51080 series", "note": "Manual clutch pump" },
+      { "model": "51200 series", "note": "Manual clutch pump" },
+      { "model": "51220 series", "note": "Manual clutch pump" },
+      { "model": "51270 series", "note": "Manual clutch pump" },
+      { "model": "51580 series", "note": "Manual clutch pump" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/manual-and-electro-magnetic-clutch-pumps/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-044",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Accessories",
+    "title": "Jabsco Y-Valve",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Provides flexibility in onboard waste and bilge management by diverting flow between two ports. In a bilge pumping system, the Y-Valve can select between two separate bilge pickups so only one pump is needed to evacuate either compartment. Now listed by Xylem under Toilet System Accessories, but remains applicable to bilge installations.",
+    "specifications": [
+      "Chemical and corrosion resistant polypropylene and stainless-steel construction",
+      "Selector lever can be padlocked and/or sealed in either position",
+      "Ports rotate for flexible plumbing routing without disassembly",
+      "Supplied with 1-1/2\" (38mm) ports and an extra 1\" (25mm) straight inlet port",
+      "Optional shaft extension for through-bulkhead operation"
+    ],
+    "models": [
+      { "model": "45490-1000", "note": "Y-Valve" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/toilet-system-accessories/jabsco-y-valve/",
+    "xylemStatus": "current"
+  },
+  {
+    "id": "bp-045",
+    "category": "Bilge Pumping Systems",
+    "subcategory": "Jabsco Accessories",
+    "title": "Jabsco Vacuum Switch",
+    "brand": "Jabsco",
+    "image": "assets/images/placeholder.svg",
+    "description": "Protects flexible impeller pumps from damage caused by extended periods of dry running. Wired into the power circuit to an electric motor or clutch, it senses a break in vacuum when the pump runs out of liquid and shuts off power automatically.",
+    "specifications": [
+      "Protects flexible impeller pumps from dry-running damage",
+      "Suitable for both DC and AC powered pumps",
+      "Manual restart, automatic stop; remote restart possible",
+      "Requires minimum 1.2m (4ft) suction lift"
+    ],
+    "models": [
+      { "model": "4732-0000 / 4732-0001 / 4732-0010", "note": "Vacuum Switch" }
+    ],
+    "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/bilge-accessories/vacuum-switch/",
+    "xylemStatus": "current"
+  }
+]

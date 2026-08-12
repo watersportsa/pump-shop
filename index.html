@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marine Pump Shop — Order via WhatsApp or Email</title>
+<meta name="description" content="Browse genuine Jabsco & Rule marine pumps and parts, and order instantly via WhatsApp or Email.">
+<link rel="icon" href="assets/images/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <img src="assets/images/logo.svg" alt="Store logo" class="logo" id="logoImg">
+    <div class="header-text">
+      <h1 id="storeName">Marine Pump Shop</h1>
+      <p id="storeTagline">Order genuine marine pumps and parts via WhatsApp or Email</p>
+    </div>
+  </div>
+  <div class="search-bar">
+    <input type="search" id="searchInput" placeholder="Search products, models, or keywords…" aria-label="Search products">
+  </div>
+</header>
+
+<nav class="category-nav" id="categoryNav" aria-label="Product categories"></nav>
+
+<main>
+  <div class="results-meta" id="resultsMeta"></div>
+  <section class="product-grid" id="productGrid" aria-live="polite"></section>
+</main>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-body">
+      <div class="modal-image">
+        <img id="modalImage" src="" alt="">
+      </div>
+      <div class="modal-details">
+        <p class="modal-breadcrumb" id="modalBreadcrumb"></p>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-brand" id="modalBrand"></p>
+        <p class="modal-description" id="modalDescription"></p>
+
+        <h3>Specifications</h3>
+        <ul class="spec-list" id="modalSpecs"></ul>
+
+        <h3 id="modalModelsHeading">Available Models / Variants</h3>
+        <ul class="model-list" id="modalModels"></ul>
+
+        <a href="#" id="modalXylemLink" class="xylem-link" target="_blank" rel="noopener noreferrer">View current product page on Xylem.com &rarr;</a>
+
+        <div class="order-actions">
+          <label for="qtyInput">Quantity</label>
+          <input type="number" id="qtyInput" min="1" value="1">
+          <a href="#" id="whatsappOrderBtn" class="btn btn-whatsapp" target="_blank" rel="noopener">Order via WhatsApp</a>
+          <a href="#" id="emailOrderBtn" class="btn btn-email">Order via Email</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>This is an independent catalog ordering tool. Product names, model numbers and specifications are provided for reference.</p>
+  <p>Every product listed is verified against a current Xylem.com product page — discontinued items are not listed.</p>
+  <p id="footerNote">Pilot version — Bilge Pumping Systems category. More categories coming soon.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
