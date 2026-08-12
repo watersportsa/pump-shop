@@ -20,14 +20,102 @@
       "Limited 3-year warranty (5-year on Gold Series)"
     ],
     "models": [
-      { "model": "24DA", "note": "360 GPH (1363 LPH), 12V" },
-      { "model": "25DA / 25DA-24", "note": "500 GPH (1893 LPH), 12V/24V" },
-      { "model": "20DA / 20DA-24", "note": "800 GPH (3028 LPH), 12V/24V" },
-      { "model": "27DA / 27DA-24", "note": "1100 GPH (4164 LPH), 12V/24V" },
-      { "model": "04 / 03 / 02-6 / 02", "note": "1500 GPH (5678 LPH)" },
-      { "model": "12 / 11 / 10-6UL / 10 / 09", "note": "2000 GPH (7571 LPH)" },
-      { "model": "15A / 16A / 14A-6UL / 14A / 13A", "note": "3700 GPH (14,010 LPH)" },
-      { "model": "56D-32 / 56D-24 / 56D", "note": "4000 GPH (15,140 LPH)" }
+      {
+        "model": "24DA",
+        "note": "360 GPH (1363 LPH), 12V"
+      },
+      {
+        "model": "25DA",
+        "note": "500 GPH (1893 LPH), 12V"
+      },
+      {
+        "model": "25DA-24",
+        "note": "500 GPH (1893 LPH), 24V"
+      },
+      {
+        "model": "20DA",
+        "note": "800 GPH (3028 LPH), 12V"
+      },
+      {
+        "model": "20DA-24",
+        "note": "800 GPH (3028 LPH), 24V"
+      },
+      {
+        "model": "27DA",
+        "note": "1100 GPH (4164 LPH), 12V"
+      },
+      {
+        "model": "27DA-24",
+        "note": "1100 GPH (4164 LPH), 24V"
+      },
+      {
+        "model": "04",
+        "note": "1500 GPH (5678 LPH)"
+      },
+      {
+        "model": "03",
+        "note": "1500 GPH (5678 LPH)"
+      },
+      {
+        "model": "02-6",
+        "note": "1500 GPH (5678 LPH)"
+      },
+      {
+        "model": "02",
+        "note": "1500 GPH (5678 LPH)"
+      },
+      {
+        "model": "12",
+        "note": "2000 GPH (7571 LPH)"
+      },
+      {
+        "model": "11",
+        "note": "2000 GPH (7571 LPH)"
+      },
+      {
+        "model": "10-6UL",
+        "note": "2000 GPH (7571 LPH)"
+      },
+      {
+        "model": "10",
+        "note": "2000 GPH (7571 LPH)"
+      },
+      {
+        "model": "09",
+        "note": "2000 GPH (7571 LPH)"
+      },
+      {
+        "model": "15A",
+        "note": "3700 GPH (14,010 LPH)"
+      },
+      {
+        "model": "16A",
+        "note": "3700 GPH (14,010 LPH)"
+      },
+      {
+        "model": "14A-6UL",
+        "note": "3700 GPH (14,010 LPH)"
+      },
+      {
+        "model": "14A",
+        "note": "3700 GPH (14,010 LPH)"
+      },
+      {
+        "model": "13A",
+        "note": "3700 GPH (14,010 LPH)"
+      },
+      {
+        "model": "56D",
+        "note": "4000 GPH (15,140 LPH), 12V"
+      },
+      {
+        "model": "56D-24",
+        "note": "4000 GPH (15,140 LPH), 24V"
+      },
+      {
+        "model": "56D-32",
+        "note": "4000 GPH (15,140 LPH), 32V"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/standard-bilge-pumps/",
     "xylemStatus": "current"
@@ -50,13 +138,42 @@
       "Silent operation with minimal vibration"
     ],
     "models": [
-      { "model": "25S-6 / 25S / 25S-24", "note": "500 GPH (1893 LPH)" },
-      { "model": "20RS", "note": "800 GPH (3028 LPH)" },
-      { "model": "27S", "note": "1100 GPH (4164 LPH)" },
-      { "model": "51S", "note": "1500 GPH (5678 LPH)" },
-      { "model": "53S", "note": "2000 GPH (7571 LPH)" },
-      { "model": "55S", "note": "3700 GPH (14,010 LPH)" },
-      { "model": "56S", "note": "4000 GPH (15,140 LPH)" }
+      {
+        "model": "25S-6",
+        "note": "500 GPH (1893 LPH)"
+      },
+      {
+        "model": "25S",
+        "note": "500 GPH (1893 LPH), 12V"
+      },
+      {
+        "model": "25S-24",
+        "note": "500 GPH (1893 LPH), 24V"
+      },
+      {
+        "model": "20RS",
+        "note": "800 GPH (3028 LPH)"
+      },
+      {
+        "model": "27S",
+        "note": "1100 GPH (4164 LPH)"
+      },
+      {
+        "model": "51S",
+        "note": "1500 GPH (5678 LPH)"
+      },
+      {
+        "model": "53S",
+        "note": "2000 GPH (7571 LPH)"
+      },
+      {
+        "model": "55S",
+        "note": "3700 GPH (14,010 LPH)"
+      },
+      {
+        "model": "56S",
+        "note": "4000 GPH (15,140 LPH)"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/automatic-bilge-pumps/",
     "xylemStatus": "current"
@@ -78,11 +195,42 @@
       "Threaded discharge for easier installation"
     ],
     "models": [
-      { "model": "RM500A / RM500A-24", "note": "500 GPH (1893 LPH)" },
-      { "model": "RM750A / RM750A-24", "note": "750 GPH (2839 LPH)" },
-      { "model": "RM1100A / RM1100A-24", "note": "1100 GPH (4164 LPH)" },
-      { "model": "RM1500A", "note": "1500 GPH (5678 LPH)" },
-      { "model": "RM2000A / RM2000A-24", "note": "2000 GPH (7571 LPH)" }
+      {
+        "model": "RM500A",
+        "note": "500 GPH (1893 LPH), 12V"
+      },
+      {
+        "model": "RM500A-24",
+        "note": "500 GPH (1893 LPH), 24V"
+      },
+      {
+        "model": "RM750A",
+        "note": "750 GPH (2839 LPH), 12V"
+      },
+      {
+        "model": "RM750A-24",
+        "note": "750 GPH (2839 LPH), 24V"
+      },
+      {
+        "model": "RM1100A",
+        "note": "1100 GPH (4164 LPH), 12V"
+      },
+      {
+        "model": "RM1100A-24",
+        "note": "1100 GPH (4164 LPH), 24V"
+      },
+      {
+        "model": "RM1500A",
+        "note": "1500 GPH (5678 LPH), 12V"
+      },
+      {
+        "model": "RM2000A",
+        "note": "2000 GPH (7571 LPH), 12V"
+      },
+      {
+        "model": "RM2000A-24",
+        "note": "2000 GPH (7571 LPH), 24V"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/bilge-pump-rulemate-automatic/",
     "xylemStatus": "current"
@@ -104,8 +252,14 @@
       "12V DC, fuse size 4 amp"
     ],
     "models": [
-      { "model": "LP900S", "note": "Automatic — high/low water sensing mode" },
-      { "model": "LP900D", "note": "Standard — float/panel switch operated" }
+      {
+        "model": "LP900S",
+        "note": "Automatic — high/low water sensing mode"
+      },
+      {
+        "model": "LP900D",
+        "note": "Standard — float/panel switch operated"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/lopro-bilge-pumps/",
     "xylemStatus": "current"
@@ -127,7 +281,10 @@
       "Rotating pump head and ports"
     ],
     "models": [
-      { "model": "DB412", "note": "Rule Dry Bilge Pump" }
+      {
+        "model": "DB412",
+        "note": "Rule Dry Bilge Pump"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/db412/",
     "xylemStatus": "current",
@@ -148,7 +305,10 @@
       "Totally submersible in fresh or salt water"
     ],
     "models": [
-      { "model": "Submersible Utility Pump", "note": "See Xylem product page for current model numbers" }
+      {
+        "model": "Submersible Utility Pump",
+        "note": "See Xylem product page for current model numbers"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/submersible-pumps/bilge-pumps/110-volt-pumps-1d144088/",
     "xylemStatus": "current",
@@ -170,8 +330,14 @@
       "5-year warranty"
     ],
     "models": [
-      { "model": "37A", "note": "Super Switch" },
-      { "model": "37FA", "note": "Super Switch with in-line fuse holder" }
+      {
+        "model": "37A",
+        "note": "Super Switch"
+      },
+      {
+        "model": "37FA",
+        "note": "Super Switch with in-line fuse holder"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
     "xylemStatus": "current"
@@ -192,8 +358,14 @@
       "2-year warranty"
     ],
     "models": [
-      { "model": "35A", "note": "Rule-A-Matic" },
-      { "model": "35FA", "note": "Rule-A-Matic with in-line fuse holder" }
+      {
+        "model": "35A",
+        "note": "Rule-A-Matic"
+      },
+      {
+        "model": "35FA",
+        "note": "Rule-A-Matic with in-line fuse holder"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
     "xylemStatus": "current"
@@ -214,8 +386,14 @@
       "2-year warranty"
     ],
     "models": [
-      { "model": "40A", "note": "Rule-A-Matic Plus" },
-      { "model": "40FA", "note": "Rule-A-Matic Plus with in-line fuse holder" }
+      {
+        "model": "40A",
+        "note": "Rule-A-Matic Plus"
+      },
+      {
+        "model": "40FA",
+        "note": "Rule-A-Matic Plus with in-line fuse holder"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
     "xylemStatus": "current"
@@ -234,8 +412,14 @@
       "Suitable for 12V and 24V systems"
     ],
     "models": [
-      { "model": "39", "note": "ECO-Switch, 12 volt" },
-      { "model": "39-24", "note": "ECO-Switch, 24 volt" }
+      {
+        "model": "39",
+        "note": "ECO-Switch, 12 volt"
+      },
+      {
+        "model": "39-24",
+        "note": "ECO-Switch, 24 volt"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
     "xylemStatus": "current"
@@ -255,9 +439,18 @@
       "Available in 12V, 24V and 32V versions"
     ],
     "models": [
-      { "model": "33ALA", "note": "12V DC" },
-      { "model": "32ALA", "note": "24V DC" },
-      { "model": "31ALA", "note": "32V DC" }
+      {
+        "model": "33ALA",
+        "note": "12V DC"
+      },
+      {
+        "model": "32ALA",
+        "note": "24V DC"
+      },
+      {
+        "model": "31ALA",
+        "note": "32V DC"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/bilge-pump-float-switches/",
     "xylemStatus": "current"
@@ -276,10 +469,30 @@
       "12V/24V/32V versions available"
     ],
     "models": [
-      { "model": "41 / 42", "note": "3-Way Panel Switch — Lighted" },
-      { "model": "43 / 44", "note": "3-Way Rocker Panel Switch — Lighted" },
-      { "model": "45", "note": "3-Way Panel Switch (no light)" },
-      { "model": "49", "note": "2-Way Panel Switch" }
+      {
+        "model": "41",
+        "note": "3-Way Panel Switch — Lighted, 12V"
+      },
+      {
+        "model": "42",
+        "note": "3-Way Panel Switch — Lighted, 24V"
+      },
+      {
+        "model": "43",
+        "note": "3-Way Rocker Panel Switch — Lighted, 12V"
+      },
+      {
+        "model": "44",
+        "note": "3-Way Rocker Panel Switch — Lighted, 24V"
+      },
+      {
+        "model": "45",
+        "note": "3-Way Panel Switch (no light)"
+      },
+      {
+        "model": "49",
+        "note": "2-Way Panel Switch"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/switches/panel-switches/",
     "xylemStatus": "current"
@@ -299,7 +512,14 @@
       "Back-flow prevention reduces siphon-back to shower box"
     ],
     "models": [
-      { "model": "98B / 98B-24", "note": "Shower Drain Box, 12V/24V" }
+      {
+        "model": "98B",
+        "note": "Shower Drain Box, 12V"
+      },
+      {
+        "model": "98B-24",
+        "note": "Shower Drain Box, 24V"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/98b-98b-24-shower-drain-box/",
     "xylemStatus": "current"
@@ -320,9 +540,18 @@
       "Flow: 3700-3800 GPH (14,010-14,380 LPH)"
     ],
     "models": [
-      { "model": "17A", "note": "12V DC" },
-      { "model": "18A", "note": "24V DC" },
-      { "model": "19A", "note": "32V DC" }
+      {
+        "model": "17A",
+        "note": "12V DC"
+      },
+      {
+        "model": "18A",
+        "note": "24V DC"
+      },
+      {
+        "model": "19A",
+        "note": "32V DC"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/end-suction-pumps/general-purpose-centrifugal-pumps/",
     "xylemStatus": "current"
@@ -341,8 +570,14 @@
       "Suitable for bilge, oil and diesel transfer duties"
     ],
     "models": [
-      { "model": "165", "note": "24\" (61cm) length" },
-      { "model": "168", "note": "36\" (91cm) length" }
+      {
+        "model": "165",
+        "note": "24\" (61cm) length"
+      },
+      {
+        "model": "168",
+        "note": "36\" (91cm) length"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/portable-hand-pump/",
     "xylemStatus": "current"
@@ -362,7 +597,10 @@
       "Straight or angled configurations available"
     ],
     "models": [
-      { "model": "Thru Hull Fittings", "note": "See Xylem product page for full size range" }
+      {
+        "model": "Thru Hull Fittings",
+        "note": "See Xylem product page for full size range"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/thru-hull-fittings/",
     "xylemStatus": "current"
@@ -380,8 +618,14 @@
       "For use with bilge pump through-hull installations"
     ],
     "models": [
-      { "model": "260", "note": "3/4\" (19mm) hose size" },
-      { "model": "261", "note": "1-1/8\" (29mm) hose size" }
+      {
+        "model": "260",
+        "note": "3/4\" (19mm) hose size"
+      },
+      {
+        "model": "261",
+        "note": "1-1/8\" (29mm) hose size"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/vented-loops/",
     "xylemStatus": "current"
@@ -399,8 +643,22 @@
       "Y and T configurations available"
     ],
     "models": [
-      { "model": "212 / 213", "note": "Y Fittings, 3/4\" and 1-1/8\"" },
-      { "model": "215 / 216", "note": "T Fittings, 3/4\" and 1-1/8\"" }
+      {
+        "model": "212",
+        "note": "Y Fitting, 3/4\""
+      },
+      {
+        "model": "213",
+        "note": "Y Fitting, 1-1/8\""
+      },
+      {
+        "model": "215",
+        "note": "T Fitting, 3/4\""
+      },
+      {
+        "model": "216",
+        "note": "T Fitting, 1-1/8\""
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/rule-accessories/general-accessories/3-way-bilge-hose-fittings/",
     "xylemStatus": "current"
@@ -420,7 +678,10 @@
       "Stainless steel handle with mounting clips and safety lanyard provision"
     ],
     "models": [
-      { "model": "29240-0000", "note": "Amazon Bulkhead Manual Bilge Pump" }
+      {
+        "model": "29240-0000",
+        "note": "Amazon Bulkhead Manual Bilge Pump"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/manual-bilge-pumps/",
     "xylemStatus": "current"
@@ -441,7 +702,10 @@
       "Quick release clamp ring for clearing blockages"
     ],
     "models": [
-      { "model": "29270-0000", "note": "Amazon Universal Manual Bilge Pump" }
+      {
+        "model": "29270-0000",
+        "note": "Amazon Universal Manual Bilge Pump"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/manual-bilge-pumps/",
     "xylemStatus": "current"
@@ -462,8 +726,14 @@
       "Includes through-deck kit and cover"
     ],
     "models": [
-      { "model": "29250-0000", "note": "Amazon Thrudeck Manual Bilge Pump" },
-      { "model": "29250-0010", "note": "Amazon Thrudeck Manual Bilge Pump, alternate port size" }
+      {
+        "model": "29250-0000",
+        "note": "Amazon Thrudeck Manual Bilge Pump"
+      },
+      {
+        "model": "29250-0010",
+        "note": "Amazon Thrudeck Manual Bilge Pump, alternate port size"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/manual-bilge-pumps/",
     "xylemStatus": "current"
@@ -483,7 +753,10 @@
       "Can function on one diaphragm in an emergency"
     ],
     "models": [
-      { "model": "Amazon Warrior", "note": "See Xylem product page for current model numbers" }
+      {
+        "model": "Amazon Warrior",
+        "note": "See Xylem product page for current model numbers"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/manual-bilge-pumps/",
     "xylemStatus": "current"
@@ -503,9 +776,18 @@
       "Corrosion-resistant materials throughout"
     ],
     "models": [
-      { "model": "29295-1011", "note": "3/4\" (19mm) ID hose" },
-      { "model": "29295-1000", "note": "1\" (25mm) ID hose" },
-      { "model": "29295-1010", "note": "1-1/2\" (38mm) ID hose" }
+      {
+        "model": "29295-1011",
+        "note": "3/4\" (19mm) ID hose"
+      },
+      {
+        "model": "29295-1000",
+        "note": "1\" (25mm) ID hose"
+      },
+      {
+        "model": "29295-1010",
+        "note": "1-1/2\" (38mm) ID hose"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/bilge-accessories/in-line-non-return-valves/",
     "xylemStatus": "current"
@@ -525,7 +807,10 @@
       "Screw-off, transparent housing for easy inspection and cleaning"
     ],
     "models": [
-      { "model": "Jabsco Strainers", "note": "Multiple hose sizes available — see Xylem product page" }
+      {
+        "model": "Jabsco Strainers",
+        "note": "Multiple hose sizes available — see Xylem product page"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/strainers-and-filters/strainers/",
     "xylemStatus": "current"
@@ -545,7 +830,10 @@
       "Snap-in ports; waterproof coating"
     ],
     "models": [
-      { "model": "Shower Drain & Bilge Marine Pump", "note": "See Xylem product page for current model numbers" }
+      {
+        "model": "Shower Drain & Bilge Marine Pump",
+        "note": "See Xylem product page for current model numbers"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/shower-drain-bilge-marine-pumps/",
     "xylemStatus": "current"
@@ -565,8 +853,14 @@
       "Complies with USCG 183.410, ISO 8846 and ISO 8849"
     ],
     "models": [
-      { "model": "36680-2000", "note": "12V DC model" },
-      { "model": "36680-2010", "note": "24V DC model" }
+      {
+        "model": "36680-2000",
+        "note": "12V DC model"
+      },
+      {
+        "model": "36680-2010",
+        "note": "24V DC model"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/shower-drain-bilge-marine-pumps/",
     "xylemStatus": "current"
@@ -586,8 +880,14 @@
       "Complies with USCG 183.410, ISO 8846 and ISO 8849"
     ],
     "models": [
-      { "model": "36600-0000", "note": "12V DC model" },
-      { "model": "36600-0010", "note": "24V DC model" }
+      {
+        "model": "36600-0000",
+        "note": "12V DC model"
+      },
+      {
+        "model": "36600-0010",
+        "note": "24V DC model"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/packaged-solutions/drainage-dewatering2/36600-diaphragm-bilge-pump/",
     "xylemStatus": "current"
@@ -606,7 +906,10 @@
       "In-place cleaning of stainless steel mesh screen"
     ],
     "models": [
-      { "model": "Pumpgard Strainer", "note": "See Xylem Strainers product page for current part numbers" }
+      {
+        "model": "Pumpgard Strainer",
+        "note": "See Xylem Strainers product page for current part numbers"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/strainers-and-filters/strainers/",
     "xylemStatus": "current"
@@ -626,7 +929,10 @@
       "Complies with USCG 183.410, ISO 8846 and ISO 8849"
     ],
     "models": [
-      { "model": "18660-0121", "note": "12V DC model" }
+      {
+        "model": "18660-0121",
+        "note": "12V DC model"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
     "xylemStatus": "current"
@@ -645,9 +951,18 @@
       "Fitting: 1/2\" (13mm) NPT and 1\" (25mm) ID hose"
     ],
     "models": [
-      { "model": "18670-0123", "note": "12V DC (Non CE)" },
-      { "model": "23680-4003", "note": "12V DC" },
-      { "model": "23680-4103", "note": "24V DC" }
+      {
+        "model": "18670-0123",
+        "note": "12V DC (Non CE)"
+      },
+      {
+        "model": "23680-4003",
+        "note": "12V DC"
+      },
+      {
+        "model": "23680-4103",
+        "note": "24V DC"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
     "xylemStatus": "current"
@@ -666,8 +981,14 @@
       "Fitting: 1/2\" (13mm) BSP and 1\" (25mm) ID hose"
     ],
     "models": [
-      { "model": "23610-3003", "note": "12V DC" },
-      { "model": "23610-3103", "note": "24V DC" }
+      {
+        "model": "23610-3003",
+        "note": "12V DC"
+      },
+      {
+        "model": "23610-3103",
+        "note": "24V DC"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
     "xylemStatus": "current"
@@ -686,8 +1007,14 @@
       "Fitting: 3/8\" (10mm) BSP and 3/4\" (19mm) ID hose"
     ],
     "models": [
-      { "model": "23670-4003", "note": "12V DC" },
-      { "model": "23670-4103", "note": "24V DC" }
+      {
+        "model": "23670-4003",
+        "note": "12V DC"
+      },
+      {
+        "model": "23670-4103",
+        "note": "24V DC"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
     "xylemStatus": "current"
@@ -707,8 +1034,14 @@
       "Complies with USCG 183.410, ISO 8846 and ISO 8849"
     ],
     "models": [
-      { "model": "23920-2403", "note": "12V DC BSP model" },
-      { "model": "23290-2503", "note": "24V DC BSP model" }
+      {
+        "model": "23920-2403",
+        "note": "12V DC BSP model"
+      },
+      {
+        "model": "23290-2503",
+        "note": "24V DC BSP model"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
     "xylemStatus": "current"
@@ -727,8 +1060,14 @@
       "Fitting: connections for 3/4\" (19mm) male threads"
     ],
     "models": [
-      { "model": "23920-2213", "note": "12V DC BSP model" },
-      { "model": "23920-2313", "note": "24V DC BSP model" }
+      {
+        "model": "23920-2213",
+        "note": "12V DC BSP model"
+      },
+      {
+        "model": "23920-2313",
+        "note": "24V DC BSP model"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
     "xylemStatus": "current"
@@ -747,8 +1086,14 @@
       "Fitting: 3/8\" (10mm) BSP and 3/4\" (19mm) ID hose"
     ],
     "models": [
-      { "model": "23620-4003", "note": "12V DC" },
-      { "model": "23620-4103", "note": "24V DC" }
+      {
+        "model": "23620-4003",
+        "note": "12V DC"
+      },
+      {
+        "model": "23620-4103",
+        "note": "24V DC"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/puppy-series/",
     "xylemStatus": "current"
@@ -769,14 +1114,38 @@
       "12V, 24V or 32V electro-magnetic clutch activation"
     ],
     "models": [
-      { "model": "11860 series", "note": "Electro-magnetic clutch pump" },
-      { "model": "11870 series", "note": "Electro-magnetic clutch pump, 1-1/4\" NPT" },
-      { "model": "18330 series", "note": "Electro-magnetic clutch pump, 2\" NPT" },
-      { "model": "50080 series", "note": "Electro-magnetic clutch pump" },
-      { "model": "50200 series", "note": "Electro-magnetic clutch pump" },
-      { "model": "50220 series", "note": "Electro-magnetic clutch pump" },
-      { "model": "50270 series", "note": "Electro-magnetic clutch pump" },
-      { "model": "50580 series", "note": "Electro-magnetic clutch pump" }
+      {
+        "model": "11860 series",
+        "note": "Electro-magnetic clutch pump"
+      },
+      {
+        "model": "11870 series",
+        "note": "Electro-magnetic clutch pump, 1-1/4\" NPT"
+      },
+      {
+        "model": "18330 series",
+        "note": "Electro-magnetic clutch pump, 2\" NPT"
+      },
+      {
+        "model": "50080 series",
+        "note": "Electro-magnetic clutch pump"
+      },
+      {
+        "model": "50200 series",
+        "note": "Electro-magnetic clutch pump"
+      },
+      {
+        "model": "50220 series",
+        "note": "Electro-magnetic clutch pump"
+      },
+      {
+        "model": "50270 series",
+        "note": "Electro-magnetic clutch pump"
+      },
+      {
+        "model": "50580 series",
+        "note": "Electro-magnetic clutch pump"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/manual-and-electro-magnetic-clutch-pumps/",
     "xylemStatus": "current"
@@ -796,11 +1165,26 @@
       "Manually engaged clutch pulley"
     ],
     "models": [
-      { "model": "51080 series", "note": "Manual clutch pump" },
-      { "model": "51200 series", "note": "Manual clutch pump" },
-      { "model": "51220 series", "note": "Manual clutch pump" },
-      { "model": "51270 series", "note": "Manual clutch pump" },
-      { "model": "51580 series", "note": "Manual clutch pump" }
+      {
+        "model": "51080 series",
+        "note": "Manual clutch pump"
+      },
+      {
+        "model": "51200 series",
+        "note": "Manual clutch pump"
+      },
+      {
+        "model": "51220 series",
+        "note": "Manual clutch pump"
+      },
+      {
+        "model": "51270 series",
+        "note": "Manual clutch pump"
+      },
+      {
+        "model": "51580 series",
+        "note": "Manual clutch pump"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumps/positive-displacement-pumps2/flexible-impeller-pumps/manual-and-electro-magnetic-clutch-pumps/",
     "xylemStatus": "current"
@@ -821,7 +1205,10 @@
       "Optional shaft extension for through-bulkhead operation"
     ],
     "models": [
-      { "model": "45490-1000", "note": "Y-Valve" }
+      {
+        "model": "45490-1000",
+        "note": "Y-Valve"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/toilet-system-accessories/jabsco-y-valve/",
     "xylemStatus": "current"
@@ -841,7 +1228,18 @@
       "Requires minimum 1.2m (4ft) suction lift"
     ],
     "models": [
-      { "model": "4732-0000 / 4732-0001 / 4732-0010", "note": "Vacuum Switch" }
+      {
+        "model": "4732-0000",
+        "note": "Vacuum Switch"
+      },
+      {
+        "model": "4732-0001",
+        "note": "Vacuum Switch, alternate configuration"
+      },
+      {
+        "model": "4732-0010",
+        "note": "Vacuum Switch, alternate configuration"
+      }
     ],
     "xylemUrl": "https://www.xylem.com/en-us/products--services/pumps-packaged-pump-systems/pumping-accessories/jabsco-accessories/bilge-accessories/vacuum-switch/",
     "xylemStatus": "current"

@@ -39,3 +39,14 @@ When adding new catalog categories, repeat this process: extract
 candidates from the source catalog, verify each against a live Xylem
 product page, only keep confirmed-current products, and note
 consolidations/discontinuations/additions the same way this log does.
+
+## Voltage variant splitting (data structure update)
+Where a product previously listed combined model strings such as
+`"25DA / 25DA-24"` as a single row, each voltage/model variant is now
+split into its own selectable row (e.g. `25DA` and `25DA-24` as two
+separate entries), following Rule/Jabsco's standard suffix convention:
+no suffix = 12V, `-24` = 24V, `-32` = 32V. This lets customers select
+and order individual voltage variants separately in the cart rather than
+being forced to order a combined/ambiguous line item. Model number
+groupings without a confirmed per-model voltage breakdown (e.g. clutch
+pump "series" families) were left as-is rather than guessing.
