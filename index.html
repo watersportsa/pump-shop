@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Marine Pump Shop — Order via WhatsApp or Email</title>
-<meta name="description" content="Browse genuine Jabsco & Rule marine pumps and parts, and order instantly via WhatsApp or Email.">
+<meta name="description" content="Browse genuine Jabsco & Rule marine pumps and parts, add multiple items and models to your cart, and order instantly via WhatsApp or Email.">
 <link rel="icon" href="assets/images/logo.svg">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,6 +17,9 @@
       <h1 id="storeName">Marine Pump Shop</h1>
       <p id="storeTagline">Order genuine marine pumps and parts via WhatsApp or Email</p>
     </div>
+    <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+      🛒 Cart <span class="cart-count" id="cartCount">0</span>
+    </button>
   </div>
   <div class="search-bar">
     <input type="search" id="searchInput" placeholder="Search products, models, or keywords…" aria-label="Search products">
@@ -30,6 +33,7 @@
   <section class="product-grid" id="productGrid" aria-live="polite"></section>
 </main>
 
+<!-- Product Detail Modal -->
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
@@ -46,18 +50,34 @@
         <h3>Specifications</h3>
         <ul class="spec-list" id="modalSpecs"></ul>
 
-        <h3 id="modalModelsHeading">Available Models / Variants</h3>
-        <ul class="model-list" id="modalModels"></ul>
+        <h3>Select Model(s) / Variant(s) to Order</h3>
+        <p class="model-select-hint">Choose a quantity for each model or variant you'd like — you can order more than one at a time.</p>
+        <div class="model-select-list" id="modalModelSelect"></div>
 
         <a href="#" id="modalXylemLink" class="xylem-link" target="_blank" rel="noopener noreferrer">View current product page on Xylem.com &rarr;</a>
 
         <div class="order-actions">
-          <label for="qtyInput">Quantity</label>
-          <input type="number" id="qtyInput" min="1" value="1">
-          <a href="#" id="whatsappOrderBtn" class="btn btn-whatsapp" target="_blank" rel="noopener">Order via WhatsApp</a>
-          <a href="#" id="emailOrderBtn" class="btn btn-email">Order via Email</a>
+          <button class="btn btn-add-cart" id="addToCartBtn">Add Selected to Cart</button>
+          <span class="add-cart-feedback" id="addCartFeedback"></span>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cart Drawer -->
+<div class="cart-overlay" id="cartOverlay">
+  <div class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+    <div class="cart-header">
+      <h2 id="cartTitle">Your Order Cart</h2>
+      <button class="modal-close" id="cartClose" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-summary" id="cartSummary"></div>
+      <button class="btn btn-clear" id="clearCartBtn">Clear Cart</button>
+      <a href="#" id="cartWhatsappBtn" class="btn btn-whatsapp" target="_blank" rel="noopener">Checkout via WhatsApp</a>
+      <a href="#" id="cartEmailBtn" class="btn btn-email">Checkout via Email</a>
     </div>
   </div>
 </div>

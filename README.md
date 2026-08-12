@@ -1,26 +1,39 @@
-# Marine Pump Shop — WhatsApp/Email Ordering Platform
+# Marine Pump Shop — WhatsApp/Email Ordering Platform with Cart
 
 A lightweight, static product catalog and ordering tool for Jabsco/Rule
-marine pumps. Customers browse by category, view specifications, and
-place an order with one click — via **WhatsApp** or **Email**.
+marine pumps. Customers browse by category, select multiple models or
+variants per product with individual quantities, add them to a
+persistent cart, and check out the entire cart in one consolidated
+message — via **WhatsApp** or **Email**.
 
-## Catalog accuracy policy (important)
+## What's new: shopping cart & multi-model ordering
 
-This catalog is **reconciled against live Xylem.com product pages**, not
-just the original supplier PDF catalog. See
-[`data/RECONCILIATION_LOG.md`](data/RECONCILIATION_LOG.md) for the full
-methodology and audit trail. In short:
+- **Model/variant selection per product**: Each product detail view lists
+  every model/variant as its own row with a quantity stepper. You can
+  select quantities for several different models of the same product at
+  once (e.g., 2× the 24DA and 1× the 27DA of Rule Standard Bilge Pumps)
+  and add them all to the cart together with **"Add Selected to Cart"**.
+- **Persistent cart**: A cart icon in the header shows a live item count.
+  The cart survives page reloads (stored in the browser's `localStorage`)
+  so customers can keep browsing and adding items across multiple
+  products before checking out.
+- **Cart drawer**: Click the cart icon to open a slide-out panel listing
+  every line item (product + model + quantity), with steppers to adjust
+  quantity or remove items, and a running total.
+- **One-click consolidated checkout**: "Checkout via WhatsApp" and
+  "Checkout via Email" build a single, numbered order message covering
+  every item in the cart — no need to send multiple separate messages
+  for multiple products.
 
-> **A product is only listed here if it currently appears on a live
-> Xylem.com product page.** Discontinued products are removed, even if
-> they were in the original catalog. New current products not in the
-> original catalog are added. Every entry links to its current Xylem
-> source page (`xylemUrl` field) for verification.
+## Catalog accuracy policy
 
-This pilot release covers **Bilge Pumping Systems**: 39 products
-verified current as of August 2026 (6 removed as discontinued/unlisted,
-2 added as newly-found current products, several consolidated to match
-Xylem's current product family structure).
+This catalog is reconciled against live Xylem.com product pages — see
+[`data/RECONCILIATION_LOG.md`](data/RECONCILIATION_LOG.md). In short: a
+product is only listed if it currently appears on a live Xylem.com
+product page; discontinued items are excluded. Every entry links to its
+verifying Xylem source page (`xylemUrl` field).
+
+This pilot release covers **Bilge Pumping Systems**: 39 products.
 
 ## How it works
 
@@ -29,11 +42,9 @@ Xylem's current product family structure).
 - Product data lives in [`data/products.json`](data/products.json).
 - Store settings (name, WhatsApp number, order email) live in
   [`data/config.json`](data/config.json).
-- Each product card shows a **"View current product page on Xylem.com"**
-  link so customers (and you) can always verify current pricing/specs
-  directly at the source.
-- "Order via WhatsApp" opens `wa.me` with a pre-filled message. "Order
-  via Email" opens a `mailto:` link with the subject/body pre-filled.
+- Cart state lives in the browser's `localStorage` — nothing is sent
+  anywhere until the customer explicitly taps "Checkout via WhatsApp" or
+  "Checkout via Email".
 
 ## Quick start (run locally)
 
@@ -53,27 +64,26 @@ no-terminal-required walkthrough.
 
 ## Updating the catalog going forward
 
-Whenever you extract a new category (Toilet Systems, Water Pressure
-Systems, etc.), follow the same reconciliation process documented in
-`data/RECONCILIATION_LOG.md`:
-1. Extract candidate products from the source catalog.
-2. Verify each against a live Xylem.com product page.
-3. Only keep products confirmed current; note removals/additions.
-4. Populate `xylemUrl` and `xylemStatus` on every new entry.
+Whenever you extract a new category, follow the reconciliation process
+in `data/RECONCILIATION_LOG.md`: verify each candidate product against a
+live Xylem.com page before adding it, and populate `xylemUrl` and
+`xylemStatus` on every new entry. The cart and model-selection UI work
+automatically for any new products added to `products.json` — no code
+changes needed, as long as each product has a `models` array (even a
+single-entry one).
 
 ## Project structure
 
 ```
 pump-shop/
-├── index.html
-├── css/style.css
-├── js/app.js
+├── index.html          # page structure incl. cart drawer & product modal
+├── css/style.css        # all styling incl. cart drawer & qty steppers
+├── js/app.js             # data loading, rendering, cart logic (localStorage)
 ├── data/
 │   ├── config.json
 │   ├── products.json            # 39 products, Xylem-verified
-│   └── RECONCILIATION_LOG.md    # reconciliation methodology & audit trail
+│   └── RECONCILIATION_LOG.md
 ├── assets/images/
-├── scripts/                     # PDF image extraction helper (optional)
 ├── GITHUB_SETUP.md
 └── README.md
 ```

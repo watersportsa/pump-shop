@@ -23,8 +23,16 @@ To avoid folders getting flattened, upload one folder at a time:
 Open any file in the repo → click the pencil (✏️) icon → edit → commit.
 The live site rebuilds automatically within about a minute.
 
+## Testing the cart feature once live
+1. Open a product, set quantities for one or more models, click **"Add Selected to Cart"**.
+2. Click the **🛒 Cart** button in the header — confirm your items appear with correct quantities.
+3. Add items from a second product too, then reopen the cart to confirm both products' items are listed together.
+4. Click **"Checkout via WhatsApp"** or **"Checkout via Email"** — confirm the pre-filled message lists every item with its quantity.
+5. Refresh the page — the cart should still contain your items (saved in the browser's local storage).
+
 ## Troubleshooting
 | Problem | Fix |
 |---|---|
 | Page looks unstyled / no products show | Check that `css/`, `js/`, `data/`, `assets/` are actual folders in your repo file list — not files sitting flat at the root. |
 | 404 error | `index.html` must be directly in the repo root, not inside a subfolder. |
+| Cart empties after refresh | Some browsers clear local storage in private/incognito mode — this is expected there; use a normal browser window. |
